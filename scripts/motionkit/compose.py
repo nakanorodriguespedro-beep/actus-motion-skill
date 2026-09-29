@@ -64,7 +64,7 @@ class Scene:
 
 def blur(mask, radius):
     if radius <= 0.05: return mask
-    return np.asarray(Image.fromarray((mask * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(radius))).astype(np.float32) / 255
+    return np.asarray(Image.fromarray((mask * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(float(radius)))).astype(np.float32) / 255
 
 def scaled(mask, s):
     return mask if abs(s - 1) < 1e-3 else resize_mask(mask, s)
