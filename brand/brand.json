@@ -1,0 +1,15 @@
+{
+  "name": "Example Co",
+  "tagline": "One sentence in. Motion out.",
+  "logo": "logo.png",
+  "fonts": {
+    "display": null,
+    "body": null
+  },
+  "palettes": {
+    "dark":  { "bg": "#0E1013", "bg_center": "#1A1E23", "fg": "#F3F1EC", "accent": "#FF6B3D" },
+    "light": { "bg": "#F3F1EC", "bg_center": "#FFFFFF", "fg": "#16181C", "accent": "#E4572E" }
+  },
+  "default_palette": "dark",
+  "voice": "calm, precise, confident"
+}

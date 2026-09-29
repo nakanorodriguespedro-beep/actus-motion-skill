@@ -1,0 +1,18 @@
+# dependencies and build output
+node_modules/
+templates/remotion-3d/public/brand/
+out/
+motion-out/
+__pycache__/
+*.pyc
+
+# renders never live in the skill folder
+*.mp4
+*.mov
+*.gif
+*.webm
+*.sheet.png
+
+.DS_Store
+.env
+.env.*
