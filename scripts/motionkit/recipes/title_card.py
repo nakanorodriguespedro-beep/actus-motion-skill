@@ -6,7 +6,7 @@ Storyboard card (default timing, 4.5 s, N words):
 |------------------|-----------|-----------------------------------------|------------|----------------------------|
 | 0.10 + 0.09*i    | word i    | rises 3 % and de-blurs into place       | out        | stagger leads the eye      |
 | after last word  | underline | draws L->R under the last line          | in-out     | the one accent             |
-| hold             | block     | breathes (1.5 % scale, 2.8 s period)        | sine       | nothing frozen             |
+| whole piece      | block     | slow push-in (5 % over the piece)       | linear     | nothing frozen             |
 | last 0.7 s       | word i    | lifts and fades, same order             | in         | leaves accelerating        |
 """
 import numpy as np

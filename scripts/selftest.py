@@ -9,7 +9,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 for tool in ("ffmpeg", "ffprobe"):
     if not shutil.which(tool):
-        sys.exit(f"selftest FAILED: {tool} is not on PATH (macOS: brew install ffmpeg · Ubuntu: sudo apt install ffmpeg)")
+        sys.exit(f"selftest FAILED: {tool} is not on PATH (macOS: brew install ffmpeg · Ubuntu: sudo apt install ffmpeg · Windows: winget install ffmpeg)")
 
 from motionkit import brand, render as R, qa as Q
 from motionkit.assets import load_logo

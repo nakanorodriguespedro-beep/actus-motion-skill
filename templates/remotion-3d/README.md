@@ -7,7 +7,7 @@ skill copies it into your work folder and rewrites `src/Stage.tsx` to the approv
 ## Requirements
 
 - Node.js 18 or newer (tested with Node 20).
-- About 500 MB for `node_modules`, plus ~200 MB of headless Chrome that the first render downloads.
+- About 300 MB for `node_modules`, plus ~200 MB of headless Chrome that the first render downloads.
 - `ffmpeg` is NOT needed for this path (Remotion bundles its own), but the skill's self-check uses it.
 
 ## Use it by hand
